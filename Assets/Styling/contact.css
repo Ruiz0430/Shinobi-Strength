@@ -1,0 +1,129 @@
+nav {
+    height:100px;
+}
+
+
+.hero-text {
+        font-size: 4.0rem;              /* bigger font */
+        font-weight: 700;               /* bold */
+        color: #fff;                    /* white text */
+        text-transform: uppercase;      /* ALL CAPS */
+        text-align: center;             /* centered text */
+        text-shadow: 2px 2px 8px rgba(0,0,0,0.7); /* shadow for contrast */
+        letter-spacing: 2px;            /* spacing between letters */
+        padding: 10px 20px;             /* padding around text */
+      }
+
+h1{
+   padding:10px;
+   font-family: 'Roboto', sans-serif;
+   font-weight:700;
+   letter-spacing: 5px;
+   text-shadow: 2px 2px 4px #ff4b2a;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight:bolder;
+    letter-spacing: 4px;
+
+}
+
+
+.navbar-nav .nav-link {
+    color: white;           /* Default link color */
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link:focus {
+    color: #ff4b2b;             /* Hover and focus color */
+  }
+  
+
+  img.hero-image {
+    width: 200vh;
+    height: 70vh;
+    margin-top:90px;
+    padding: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 0px;
+  }
+
+  
+
+img.logo {
+    width:100px;
+    height:100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 50%; /* makes it a perfect circle */
+    border: 3px solid #ff4b2b;
+    background-color: white;
+      
+}
+
+img.training-image {
+    width:400px;
+    height:400px;
+    margin:20px;
+}
+
+.footer {
+    background-color: #959292;
+    color: #ccc;
+    padding: 20px 0;
+    padding-top:20px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+ 
+
+  .breadcrumbs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .breadcrumbs a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .breadcrumbs a:hover {
+    color: #ff4b2b;
+  }
+  
+  .separator {
+    margin: 0 8px;
+    color: black;
+  }
+  
+  .copyright {
+    font-size: 0.85rem;
+    color: black;
+    margin-top: 10px;
+  }
+
+  .social-icon{
+    width:30px;
+    height:30px;
+  }
+  div.flex-container{
+    display:flex;
+  }
+
+  .form-image{
+    width:60vh;
+    height:70vh;
+  }

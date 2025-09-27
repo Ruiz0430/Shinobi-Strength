@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="Anime based gym" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap" />
+    <meta name="author" content="Daniel Ruiz" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Shinobi Strength</title>
+        <link rel="icon" href="../Assets/Images/shinobistrength.png" type="image/x-icon" />
+        <link rel="stylesheet" href="../Assets/Styling/contact.css" />
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-black fixed-top">
+        <img class="logo rolling" alt="logo" src="../Assets/Images/shinobistrength.png">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link " href="../Shinobi-Strength/home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Shinobi-Strength/training.html">Training</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Shinobi-Strength/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="position-relative d-inline-block">
+        <img src="../Assets/Images/contact-image.jpg" class="img-fluid hero-image">
+        <p class=" hero-text position-absolute top-50 start-50 text-white translate-middle">
+        Contact Us <br> Today
+        </p>
+      </div><br><br><br>
+
+
+        <div class="container my-5"> <!--Modify form-->
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <div class="card shadow-lg border-0 rounded-3">
+                  <div class="card-body p-4">
+                    <h3 class="text-center mb-4">Leave a Review</h3>
+          
+                    <form>
+                      <!-- Name -->
+                      <div class="mb-3">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                      </div>
+          
+                      <!-- Email -->
+                      <div class="mb-3">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="example@email.com">
+                      </div>
+          
+                      <!-- Rating -->
+                      <div class="mb-3">
+                        <label class="form-label">Rating</label>
+                        <select class="form-select" id="rating">
+                          <option selected disabled>Choose a rating</option>
+                          <option value="5">⭐ 5 - Excellent</option>
+                          <option value="4">⭐ 4 - Good</option>
+                          <option value="3">⭐ 3 - Average</option>
+                          <option value="2">⭐ 2 - Poor</option>
+                          <option value="1">⭐ 1 - Terrible</option>
+                        </select>
+                      </div>
+          
+                      <!-- Review Message -->
+                      <div class="mb-3">
+                        <label for="review" class="form-label">Your Review</label>
+                        <textarea class="form-control" id="review" rows="4" placeholder="Write your review here..."></textarea>
+                      </div>
+          
+                      <!-- Buttons -->
+                      <div class="d-flex justify-content-between">
+                        <button type="reset" class="btn btn-outline-secondary">Reset</button>
+                        <button type="submit" class="btn btn-primary">Submit Review</button>
+                      </div>
+                    </form>
+          
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    
+
+ 
+   
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+</body>
+    <footer class="footer"> <!--Add links to external pages-->
+        <div class="breadcrumbs">
+          <a href="#">Home</a>
+          <span class="separator">›</span>
+          <a href="#">Training</a> 
+         <!--- <span class="separator">›</span>
+          <a href="#"></a>
+          <span class="separator">›</span>
+          <a href="#"></a> -->
+        </div><br>
+      
+        <div class="socials container d-flex justify-content-center gap-3">
+            <a href="">
+                <img src="../Assets/socials/facebook.svg" alt="facebook" class="social-icon">
+            </a>
+            <a href="">
+                <img src="../Assets/socials/instagram.svg" alt="instagram" class="social-icon">
+            </a>
+            <a href="">
+                <img src="../Assets/socials/twitter-x.svg" alt="twitter-x" class="social-icon">
+            </a>
+            <a href="">
+                <img src="../Assets/socials/tiktok.svg" alt="tiktok" class="social-icon">
+            </a>
+          </div><br>
+          
+      
+        <p class="copyright">
+          © 2025 Shinobi Strength. All rights reserved.
+        </p>
+      </footer>
+  
+</html>
