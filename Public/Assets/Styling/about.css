@@ -1,0 +1,146 @@
+nav {
+    height:100px;
+}
+
+h2 {
+  font-weight:900;
+  letter-spacing:3px ;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+
+.profile-img{
+  width:35px;
+  height:35px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.hero-text {
+        font-size: 4.0rem;              /* bigger font */
+        font-weight: 700;               /* bold */
+        color: #fff;                    /* white text */
+        text-transform: uppercase;      /* ALL CAPS */
+        text-align: center;             /* centered text */
+        text-shadow: 2px 2px 8px rgba(0,0,0,0.7); /* shadow for contrast */
+        letter-spacing: 2px;            /* spacing between letters */
+        padding: 10px 20px;             /* padding around text */
+      }
+
+ .navbar-nav .nav-link {
+        color: white;           /* Default link color */
+        transition: color 0.3s ease;
+      }
+      
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+        color: #ff4b2b;             /* Hover and focus color */
+      }
+      
+img.logo {
+        width:100px;
+        height:100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        border-radius: 50%; /* makes it a perfect circle */
+        border: 3px solid #ff4b2b;
+        background-color: white;
+          
+    }
+
+    img.hero-image {
+        width: 200vh;
+        height: 70vh;
+        margin-top:90px;
+        padding: 0;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        border-radius: 0px;
+      }
+
+      .hero-text {
+        font-size: 7.0rem;              /* bigger font */
+        font-weight: 700;               /* bold */
+        color: #fff;                    /* white text */
+        text-transform: uppercase;      /* ALL CAPS */
+        text-align: center;             /* centered text */
+        text-shadow: 2px 2px 8px rgba(0,0,0,0.7); /* shadow for contrast */
+        letter-spacing: 2px;            /* spacing between letters */
+        padding: 10px 20px;             /* padding around text */
+      }
+
+      div.flex-container{
+        display:flex;
+      }
+
+      .landing-text{
+        font-size:1.5rem;
+       font-weight: 500;
+       font-stretch: narrower;
+       letter-spacing: 3px;
+      }
+
+      .divider {
+        width:1500px;
+        height:20px;
+        background:linear-gradient(90deg, #ff4b2b, #8b0000);
+        border: black solid;
+      }
+
+      .training-image{
+        width:700px;
+        height:50vh;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      }
+
+      .social-icon{
+        width:30px;
+        height:30px;
+      }
+      .copyright {
+        font-size: 0.85rem;
+        color: black;
+        margin-top: 10px;
+      }
+      
+      .footer {
+        background-color: #959292;
+        color: #ccc;
+        padding: 20px 0;
+        padding-top:20px;
+        text-align: center;
+        font-family: sans-serif;
+      }
+      
+     
+    
+      .breadcrumbs {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+      }
+      
+      .breadcrumbs a {
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+      
+      .breadcrumbs a:hover {
+        color: #ff4b2b;
+      }
+      
+      .separator {
+        margin: 0 8px;
+        color: black;
+      }
+
+      .welcome-video {
+        width:700px;
+        height:450px;
+      }
