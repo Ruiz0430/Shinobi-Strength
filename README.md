@@ -5,7 +5,7 @@ Shinobi strength is a locally hosted full stack project based on a fictional gym
 ## Table of Contents
 - ### [About](#About)
 - ### [Featurs](#Features)
-- ### [Tech Stack / Built With](#Tech Stack / Built With)
+- ### [Tech Stack/Built With](#Tech Stack / Built With)
 - ### [Roadmap](#Roadmap)
 
 ## About
