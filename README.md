@@ -1,6 +1,6 @@
 # Shinobi-Strength
 
-Shinobi strength is a locally hosted full stack project based on a fictional gym. [Check out my portfolio](Dannysportfolio.net)
+Shinobi strength is a locally hosted full stack project based on a fictional gym. [Check out my portfolio](https://www.dannysportfolio.net/)
 
 ## Table of Contents
 - ### [About](#About)
