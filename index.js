@@ -44,7 +44,7 @@ app.post("/signup", (req, res) => {
       return res.status(500).send("Error saving user");
     }
     console.log("✅ New user added:", result);
-    res.send("Signup successful!");
+    res.sendFile(path.join(__dirname, "Public", "Pages", "congrats.html"));
   });
 });
 
