@@ -5,7 +5,7 @@ Shinobi strength is a locally hosted full stack project based on a fictional gym
 ## Demo
 <img width="1536" height="1024" alt="alt hero image" src="https://github.com/user-attachments/assets/7afbc88c-3579-4223-87c3-e3664d74c342" />
 
-[Check out live demo](vimeo.com/user249040554/)
+[Check out live demo](https://vimeo.com/1130368062?fl=ip&fe=ec)
 
 
 ## About
